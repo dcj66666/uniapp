@@ -1,0 +1,239 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/marketCenter/brushQuestions",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},  {
+			"path": "pages/index/selectExam",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/brushQuestions/dailyTest/testResult",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/brushQuestions/shareCard",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/brushQuestions/dailyTest/dailyTest",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userCenter/mine",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+
+		}, {
+			"path": "pages/brushQuestions/report",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+
+		}, {
+			"path": "pages/brushQuestions/chapterExercise/exercise",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userCenter/exchange",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+
+		}, {
+			"path": "pages/index/selectSubject",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/selectSubjectSecond",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/marketCenter/wrongList",
+			"style": {
+				"navigationBarTitleText": "错题集",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		}, {
+			"path": "pages/marketCenter/collection",
+			"style": {
+				"navigationBarTitleText": "收藏夹",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		}, {
+			"path": "pages/brushQuestions/comp/AnswerSheet",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userCenter/exchangeList",
+			"style": {
+				"navigationBarTitleText": "兑换记录",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userCenter/productName",
+			"style": {
+				"navigationBarTitleText": "产品名称",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userCenter/studySession",
+			"style": {
+				"navigationBarTitleText": "学习单元",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+
+		},{
+			"path": "pages/brushQuestions/chapterExercise/exerciseTest",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/userCenter/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/privacyAgreement",
+			"style": {
+				"navigationBarTitleText": "隐私协议",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/login/userAgreement",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/brushQuestions/comp/swiper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/webView",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/authentication",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F5F6FA",
+		"backgroundColor": "#F5F6FA",
+		"usingComponents": {
+			"tree-section": "/components/treeSection/TreeSection"
+		}
+	},
+	"tabBar": {
+		"color": "#2C364E",
+		"selectedColor": "#2C364E",
+		"backgroundColor": "#ffffff",
+		"spacing": "5px",
+		"fontSize": "13px",
+		"iconWidth": "24px",
+		"height": "80px",
+		"list": [{
+			"pagePath": "pages/index/home",
+			"iconPath": "static/img/home/main.png",
+			"selectedIconPath": "static/img/home/main-active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/userCenter/mine",
+			"iconPath": "static/img/home/mine.png",
+			"selectedIconPath": "static/img/home/mine-active.png",
+			"text": "我的"
+		}]
+	}
+}

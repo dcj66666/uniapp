@@ -1,0 +1,117 @@
+	.first-mask {
+		z-index: 999;
+		width: 260rpx;
+		height: 90rpx;
+		border-radius: 24rpx;
+		background-color: #FFFFFF;
+		position: absolute;
+		top: 22rpx;
+		left: 8rpx;
+
+		.iconImg {
+			width: 48rpx;
+			height: 48rpx;
+		}
+	}
+
+	.first-mask-model {
+		position: absolute;
+		top: 164rpx;
+		left: 96rpx;
+		width: 260rpx;
+		height: 136rpx;
+		border-radius: 24rpx;
+		background: linear-gradient(143.4deg, #667aff 0%, #4f60ff 100%);
+		color: #FFFFFF;
+		flex-direction: column;
+
+		&:before {
+			content: "";
+			width: 0;
+			height: 0;
+			position: absolute;
+			top: -20rpx;
+			left: 60rpx;
+			border-right: solid 30rpx transparent;
+			border-left: solid 30rpx transparent;
+			border-bottom: solid 30rpx #667aff;
+		}
+		.first-mask-button{
+			width: 168rpx;
+			height: 68rpx;
+			border-radius: 16rpx;
+			background: #FFFFFF;
+		}
+	}
+
+
+
+	.second-mask {
+		border-radius: 24rpx;
+		background-color: #FFFFFF;
+		position: absolute;
+		top: 660rpx;
+		left: 24rpx;
+		padding: 40rpx 32rpx;
+		width: calc(100% - 112rpx);
+
+		//考前练习
+		.practice-content {
+			image {
+				width: 112rpx;
+				height: 112rpx;
+			}
+
+			.practice-text {
+				margin-bottom: 24rpx;
+
+				.avatarBorder {
+					border: 1rpx solid #FFFFFF;
+				}
+			}
+		}
+
+		.practice-button {
+			height: 72rpx;
+			border-radius: 24rpx;
+			background: #475ffd;
+			box-shadow: 0 8rpx 24rpx 0 #d3d6ff;
+			color: #FFFFFF;
+
+			image {
+				position: absolute;
+				width: 200rpx;
+				height: 64rpx;
+				top: -30rpx;
+				right: 0;
+			}
+		}
+	}
+	.second-mask-model{
+		position: absolute;
+		top:380rpx;
+		left: 154rpx;
+		width: 446rpx;
+		border-radius: 24rpx;
+		background: linear-gradient(143.4deg, #667aff 0%, #4f60ff 100%);
+		color: #FFFFFF;
+		flex-direction: column;
+		
+		&:before {
+			content: "";
+			width: 0;
+			height: 0;
+			position: absolute;
+			bottom: -30rpx;
+			left: 100rpx;
+			border-right: solid 30rpx transparent;
+			border-left: solid 30rpx transparent;
+			border-top: solid 30rpx  #667aff;
+		}
+		.second-mask-button{
+			width: 350rpx;
+			height: 68rpx;
+			border-radius: 16rpx;
+			background: #FFFFFF;
+		}
+	}

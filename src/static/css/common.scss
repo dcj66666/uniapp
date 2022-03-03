@@ -1,0 +1,255 @@
+/* 公共文字大小 */
+.text-size-sl {
+	font-size: 26rpx;
+}
+
+.text-size-sn {
+	font-size: 28rpx;
+}
+
+.text-size-main {
+	font-size: 32rpx;
+}
+
+.text-size-xxl {
+	font-size: 48rpx;
+}
+
+.text-size-xxxl {
+	font-size: 72rpx;
+	font-weight: 700;
+}
+
+
+/* 公共文字颜色 */
+.common-text {
+	color: #2C364E;
+}
+
+.common-message {
+	color: #5B648D;
+}
+
+.common-tip {
+	color: #A2A6B9;
+}
+
+.common-waringColor {
+	color: #FF7456;
+}
+
+.common-text-700 {
+	font-weight: 700;
+}
+
+/* 公共背景 */
+.common-bg {
+	min-height: calc(100vh - 44px);
+	min-width: 100vw;
+	background-color: #F5F6FA !important;
+}
+
+.page-bg {
+	min-height: calc(100vh - 44px);
+	min-width: 100vw;
+	background-color: #FFFFFF !important;
+}
+
+/* 公共按钮 */
+.common-buttonBox {
+	width: 100%;
+	height: 208rpx;
+	position: fixed;
+	bottom: 0rpx;
+	background-color: #F5F6FA;
+}
+
+.common-button {
+	width: calc(100% - 96rpx);
+	font-size: 32rpx;
+	height: 88rpx;
+	border-radius: 24rpx;
+	color: #FFFFFF;
+	margin: auto;
+	&:focus{
+		background-color: #394CCA;
+	}
+}
+
+
+
+/* 公共tabbar */
+.common-tabBar {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 140rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FFFFFF;
+}
+
+.common-barItem {
+	width: 50%;
+}
+
+.common-open {
+	width: 72rpx;
+	height: 0;
+	border-radius: 40rpx;
+	border: 8rpx solid #DAE2FF;
+	margin: auto;
+}
+
+.disable-Btn {
+	background-color: #CCCCCC !important;
+}
+
+
+.tab-item {
+	font-size: 28rpx;
+	white-space: nowrap;
+	margin-right: 32rpx;
+	position: relative;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	.tab-text {
+		z-index: 2;
+		position: relative;
+	}
+}
+
+.acitiveNum {
+	position: absolute;
+	z-index: 1;
+	bottom: 4rpx;
+	width: 100%;
+	height: 12rpx;
+	background: linear-gradient(129.1deg, #d3e2ff 0%, #eaf0fc 57%, #eaf0fc 100%);
+}
+// 遮罩
+.common-guide-mask{
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 998;
+	.common-guide-button{
+		position: absolute;
+		bottom: 250rpx;
+		right: 64rpx;
+		border-radius: 24rpx;
+		border: 2rpx solid #FFFFFF;
+		padding: 12rpx 32rpx;
+		color: #FFFFFF;
+		font-size: 24rpx;
+	}
+}
+// 点击按钮变暗
+.common-click:active{
+	opacity: 0.8 !important;
+}
+//去除按钮样式
+button {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	padding: 0;
+	&:after {
+	    border: none;
+	}
+}
+// 题目类型模块
+.question-numBox {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 32rpx 44rpx 32rpx;
+		padding-top: 32rpx;
+
+		.question-type {
+			padding: 8rpx 16rpx;
+			border-radius: 16rpx;
+			color: #FFFFFF;
+			background: linear-gradient(143.4deg, #667aff 0%, #4f60ff 100%);
+			box-shadow: 0 4rpx 12rpx 0 rgba(189, 180, 255, 0.5);
+		}
+	}
+// 解析模块
+.question-box {
+		overflow-y: scroll;
+		height: 100%;
+	}
+
+	.analysis-box {
+		background-color: #FFFFFF;
+		border-radius: 24rpx;
+		margin: 40rpx 24rpx;
+		padding: 48rpx 34rpx;
+		padding-bottom: 100rpx;
+
+		.analysis-icon {
+			width: 50rpx;
+			height: 56rpx;
+		}
+	}
+	.head-bar {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 88rpx;
+		padding: 0 32rpx;
+		z-index: 997;
+		padding-top: var(--status-bar-height);
+		background: #FFFFFF;
+	}
+	//选择科目的头部tab栏
+	.tab-box {
+		position: relative;
+		.tab-list {
+			overflow-x: scroll;
+			height: 96rpx;
+			display: flex;
+			align-items: center;
+			margin: 0 170rpx 0 28rpx;
+		}
+	
+		.setting-box {
+			position: absolute;
+			right: 0;
+			top: 0;
+			height: 96rpx;
+			width: 160rpx;
+	
+			.setting-btn {
+				width: 108rpx;
+				height: 44rpx;
+				border-radius: 40rpx;
+				opacity: 1;
+				background: #FFFFFF;
+				box-shadow: 0 8rpx 16rpx 0 #f2f2f2;
+				display: flex;
+	
+				.t-icon-Setting {
+					width: 24rpx;
+					height: 24rpx;
+				}
+			}
+		}
+	}
+	
+	//图标
+	.t-icon-qiehuanxiangmu {
+		width: 48rpx;
+		height: 48rpx;
+	}
+	.t-icon-jiexi {
+		width: 30rpx;
+		height: 30rpx;
+	}
